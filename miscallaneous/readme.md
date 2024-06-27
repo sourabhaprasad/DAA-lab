@@ -4,7 +4,7 @@
 | ------------------------------------------------------------ | -------------------------------------------------- |
 | [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
 | [Maximum Value](#largest)                                    | to find the largest number in an array             |
-| [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values                           |
+| [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values from an array             |
 
 ## GCD of a number <a name="euclid"></a>
 
@@ -36,14 +36,14 @@ return max <br>
 
 ## Finding distinct/uniqueness in an array <a name="distinct"></a>
 
-**Algorithm distinct(arr,n)**
-// prints distinct elements in a given array
-// input: an array **arr** of input size n
-// output: print all unique elements
-unique[] = {}
-for i <- 0 to n-1 do
-&nbsp; &nbsp; if arr[i] not in unique then
-&nbsp; &nbsp;&nbsp; &nbsp; add arr[i] to unique
-print arr[i]
+**Algorithm distinct(arr,n)** <br>
+// prints distinct elements in a given array <br>
+// input: an array **arr** of input size n <br>
+// output: print all unique elements <br>
+unique[] = {} <br>
+for i <- 0 to n-1 do <br>
+&nbsp; &nbsp; if arr[i] not in unique then <br>
+&nbsp; &nbsp;&nbsp; &nbsp; add arr[i] to unique <br>
+print arr[i] <br>
 
 <br>
