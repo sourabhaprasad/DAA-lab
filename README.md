@@ -7,9 +7,9 @@
 // input: two numbers a, b <br>
 // output: GCD <br>
 while b != 0 do <br>
-r <- a mod b <br>
-a <- b <br>
-b <- r <br>
+    r <- a mod b <br>
+    a <- b <br>
+    b <- r <br>
 return a <br>
 
 <br>
@@ -22,6 +22,6 @@ return a <br>
 // Output: The largest integer in the array arr <br>
 max = arr[0] <br>
 for i from 1 to n-1 do <br>
-If arr[i] > max <br>
-max = arr[i] <br>
+    If arr[i] > max <br>
+    max = arr[i] <br>   
 return max <br>
