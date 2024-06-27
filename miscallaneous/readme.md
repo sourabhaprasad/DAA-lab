@@ -18,6 +18,7 @@ while b != 0 do <br>
 return a <br>
 
 <br>
+<hr>
 
 ## Finding largest value in an array <a name="largest"></a>
 
