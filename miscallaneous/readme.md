@@ -1,12 +1,12 @@
 # Algorithms
 
-| Algorithm Name                                               | Description                                        |
-| ------------------------------------------------------------ | -------------------------------------------------- |
-| [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
-| [Maximum Value](#largest)                                    | to find the largest number in an array             |
-| [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values from an array             |
-| [Bubble Sort](#bubble)                                       | to sort an array using bubble sort                 |
-| [Selection Sort](#selection)                                 | to sort an array using selection sort              |
+| Index | Algorithm Name                                               | Description                                        |
+| ----- | ------------------------------------------------------------ | -------------------------------------------------- |
+| 1.    | [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
+| 2.    | [Maximum Value](#largest)                                    | to find the largest number in an array             |
+| 3.    | [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values from an array             |
+| 4.    | [Bubble Sort](#bubble)                                       | to sort an array using bubble sort                 |
+| 5.    | [Selection Sort](#selection)                                 | to sort an array using selection sort              |
 
 ## GCD of a number <a name="euclid"></a>
 
