@@ -5,8 +5,8 @@
 | [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
 | [Maximum Value](#largest)                                    | to find the largest number in an array             |
 | [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values from an array             |
-| [Bubble Sort](#bubble)                                       | sort an array using bubble sort                    |
-| [Selection Sort](#selection)                                 | sort an array using selection sort                 |
+| [Bubble Sort](#bubble)                                       | to sort an array using bubble sort                 |
+| [Selection Sort](#selection)                                 | to sort an array using selection sort              |
 
 ## GCD of a number <a name="euclid"></a>
 
