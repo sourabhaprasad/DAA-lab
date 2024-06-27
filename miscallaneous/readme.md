@@ -52,26 +52,28 @@ print arr[i] <br>
 
 ## Bubble Sort <a name="bubble"></a>
 
-**Algorithm BubbleSort(a[0...n-1])**
-// sorts a given array using bubble sort method
-// input: an array a[0...n-1]
-// output: sorted array
+**Algorithm BubbleSort(a[0...n-1])** <br>
+// sorts a given array using bubble sort method <br>
+// input: an array a[0...n-1] <br>
+// output: sorted array <br>
 
-for i <- 0 to n-2 do
-&nbsp;&nbsp; for j <- 0 to n-2-i do
-&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[j+1])
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swap(a[j], a[j+1])
+for i <- 0 to n-2 do <br>
+&nbsp;&nbsp; for j <- 0 to n-2-i do <br>
+&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[j+1]) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swap(a[j], a[j+1]) <br>
+
+<br>
 
 ## Selection Sort <a name="Selection"></a>
 
-**Algorithm SelectionSort(a[0...n-1])**
-// sorts a given array using selection sort method
-// input: an array a[0...n-1]
-// output: sorted array
+**Algorithm SelectionSort(a[0...n-1])** <br>
+// sorts a given array using selection sort method <br>
+// input: an array a[0...n-1] <br>
+// output: sorted array <br>
 
-for i <- 0 to n-2 do
-&nbsp;&nbsp; min <- i
-&nbsp;&nbsp; for j <- i+1 to n-1 do
-&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[min])
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min <- i
-&nbsp;&nbsp;&nbsp;&nbsp; swap(a[i], a[min])
+for i <- 0 to n-2 do <br>
+&nbsp;&nbsp; min <- i <br>
+&nbsp;&nbsp; for j <- i+1 to n-1 do <br>
+&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[min]) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min <- i <br>
+&nbsp;&nbsp;&nbsp;&nbsp; swap(a[i], a[min]) <br>
