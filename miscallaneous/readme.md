@@ -1,4 +1,4 @@
-# Algorithms
+Algorithms
 
 ## GCD of a number
 
@@ -16,7 +16,7 @@ return a
 
 ## Finding largest value in an array
 
-**ALGORITHM largest(arr, n)**
+ALGORITHM largest(arr, n)
 // Algorithm to find the largest number in an array
 // Input: An array arr of integers, and integer n indicating the number of elements in arr
 // Output: The largest integer in the array arr
