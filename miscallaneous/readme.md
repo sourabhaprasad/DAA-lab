@@ -5,10 +5,9 @@
 | [Euclid(a,b)](#euclid)      | Algorithm to find the greatest common divisor of two numbers |
 | [largest(arr, n)](#largest) | Algorithm to find the largest number in an array             |
 
-## GCD of a number
+## GCD of a number <a name="euclid"></a>
 
-### Euclid(a,b) <a name="euclid"></a>
-
+**Algorithm Euclid(a,b)**
 // algorithm to find the greatest common divisor of two numbers <br>
 // input: two numbers a, b <br>
 // output: GCD <br>
@@ -20,10 +19,9 @@ return a <br>
 
 <br>
 
-## Finding largest value in an array
+## Finding largest value in an array <a name="largest"></a>
 
-### largest(arr, n) <a name="largest"></a>
-
+**Algorithm largest(arr, n)**
 // Algorithm to find the largest number in an array <br>
 // Input: An array arr of integers, and integer n indicating the number of elements in arr <br>
 // Output: The largest integer in the array arr <br>
