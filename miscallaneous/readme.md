@@ -5,6 +5,8 @@
 | [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
 | [Maximum Value](#largest)                                    | to find the largest number in an array             |
 | [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values from an array             |
+| [Bubble Sort](#bubble-sort)                                  | sort an array using bubble sort                    |
+| [Selection Sort](#selection-sort)                            | sort an array using selection sort                 |
 
 ## GCD of a number <a name="euclid"></a>
 
@@ -47,3 +49,29 @@ for i <- 0 to n-1 do <br>
 print arr[i] <br>
 
 <br>
+
+## Bubble Sort <a name="bubble"></a>
+
+**Algorithm BubbleSort(a[0...n-1])**
+// sorts a given array using bubble sort method
+// input: an array a[0...n-1]
+// output: sorted array
+
+for i <- 0 to n-2 do
+&nbsp;&nbsp; for j <- 0 to n-2-i do
+&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[j+1])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; swap(a[j], a[j+1])
+
+## Selection Sort <a name="Selection"></a>
+
+**Algorithm SelectionSort(a[0...n-1])**
+// sorts a given array using selection sort method
+// input: an array a[0...n-1]
+// output: sorted array
+
+for i <- 0 to n-2 do
+&nbsp;&nbsp; min <- i
+&nbsp;&nbsp; for j <- i+1 to n-1 do
+&nbsp;&nbsp;&nbsp;&nbsp; if (a[j]>a[min])
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min <- i
+&nbsp;&nbsp;&nbsp;&nbsp; swap(a[i], a[min])
