@@ -1,9 +1,10 @@
 # Algorithms
 
-| Algorithm Name              | Description                                                  |
-| --------------------------- | ------------------------------------------------------------ |
-| [Euclid(a,b)](#euclid)      | Algorithm to find the greatest common divisor of two numbers |
-| [largest(arr, n)](#largest) | Algorithm to find the largest number in an array             |
+| Algorithm Name                                               | Description                                        |
+| ------------------------------------------------------------ | -------------------------------------------------- |
+| [GCD](#euclid)                                               | to find the greatest common divisor of two numbers |
+| [Maximum Value](#largest)                                    | to find the largest number in an array             |
+| [Distinct Elements](#finding-distinctuniqueness-in-an-array) | to print distinct values                           |
 
 ## GCD of a number <a name="euclid"></a>
 
@@ -18,7 +19,6 @@ while b != 0 do <br>
 return a <br>
 
 <br>
-<hr>
 
 ## Finding largest value in an array <a name="largest"></a>
 
@@ -31,3 +31,19 @@ for i from 1 to n-1 do <br>
 &nbsp;&nbsp; if arr[i] > max <br>
 &nbsp;&nbsp;&nbsp;&nbsp; max = arr[i] <br>
 return max <br>
+
+<br>
+
+## Finding distinct/uniqueness in an array <a name="distinct"></a>
+
+**Algorithm distinct(arr,n)**
+// prints distinct elements in a given array
+// input: an array **arr** of input size n
+// output: print all unique elements
+unique[] = {}
+for i <- 0 to n-1 do
+&nbsp; &nbsp; if arr[i] not in unique then
+&nbsp; &nbsp;&nbsp; &nbsp; add arr[i] to unique
+print arr[i]
+
+<br>
