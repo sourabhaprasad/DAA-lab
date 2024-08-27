@@ -813,10 +813,9 @@ void search(char* pat, char* txt) {
 
     // Slide the pattern over the text one by one
     for (int i = 0; i &lt;= N - M; i++) {
-        int j;
 
         // Check if the pattern matches the substring of text
-        for (j = 0; j &lt; M; j++)
+        for (int j = 0; j &lt; M; j++)
             if (txt[i + j] != pat[j])
                 break;
 
@@ -873,8 +872,8 @@ void dijkstra(int graph[V][V], int src) {
         sptSet[u] = true;
 
         for (int v = 0; v &lt; V; v++)
-            if (!sptSet[v] &amp;&amp; graph[u][v] &amp;&amp; dist[u] != INT_MAX &amp;&amp; dist[u] + graph[u][v] &lt; dist[v])
-                dist[v] = dist[u] + graph[u][v];
+							if (!sptSet[v] &amp;&amp; graph[u][v] &amp;&amp; dist[u] &lt; INT_MAX &amp;&amp; dist[v] &gt; dist[u] + graph[u][v])
+	                dist[v] = dist[u] + graph[u][v];
     }
 
     printSolution(dist);
